@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+/* Fixed styles */
+
+.display-flex{
+    display: flex;
+}
+.bg-color-1{
+    background-color: rgba(119, 119, 119, 0);
+}
+.bg-color{
+    background-color: rgba(17, 17, 17, 1);
+}
+.bg-color-2{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.bg-color-orange{
+    background-color:  rgba(230, 83, 60, 1);
+
+}
+.orange-color{
+    color: rgba(230, 83, 60, 1);
+}
+.white-color{
+    color: rgba(255, 255, 255, 1);
+}
+.title-size{
+    font-size: 48px;
+    font-weight: 900;
+}
+/* ------------------- */
+ 
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 47px;
+    font-weight: 500;
+    font-size: 18px;
+   
+    
+}
+.nav-links{
+   
+    padding: 4px;
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
+    
+}
+.navber{
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 190px;
+}
+.section-size{
+    height: auto;
+    max-width: 1440px;
+}
+.style-home{
+   
+    padding: 4px 20px ;
+    font-size: 18px;
+    border-radius:45px ;
+}
+.brand{
+    font-weight: 800;
+    font-size: 36px;
+    font-style: italic;
+}
+.btn-primary{
+    padding: 16px 46px;
+    border-radius: 42px;
+    border: none;
+}
+.content-container{
+    height:300px ;
+    width: 600px;
+  
+
+}
+.img-size{
+    width: 350px;
+    height:580px ;
+}
+.fitness-content{
+     /* align-items: center;
+     */
+    text-align: center;
+    justify-content: space-between;
+   padding:0px 190px;
+   padding-top: auto;
+}
+.btn-border{
+    border: 1px solid rgba(255, 255, 255, 1);
+    
+}
+.section-title{
+    font-weight: 900;
+    font-size: 78px;
+}
+.section-discription{
+    font-size: 12px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    /* margin-bottom: 20px; */
+}
+.span-style{
+   
+    
+}
+.red-dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(230, 83, 60, 1) ;
+}
+.tutorial-no{
+   align-items: center;
+   max-width: 186px;
+    max-height: 76px;
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+   position: relative;
+   top: -180px;
+   left:-60px;
+}
+.tutorial-videos{
+    max-width: 186px;
+    max-height: 806px;
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+    position: relative;
+    top: -550px;
+    left: 200px;
+}
+.img-containor{
+    gap: 40px;
+    justify-content: center;
+
+}
+.change-habits{
+   padding-left: 200px;
+   padding-right: 200px;
+  margin-top: -150px;
+}
+.gym-img{
+    border-radius: 100px;
+}
+.image-size{
+    width: 231px;
+    height:276px ;
+}
+.extra-container{
+    padding: 30px;
+}
+
+.habit-title, .habit-discription{
+    text-align: center;
+}
+.habit-discription{
+
+}
+.img-run{
+    width: 366px;
+    height: 312px;
+    border-radius: 10px;
+}
+.extra-run{
+    gap: 165px;
+    margin: 100px 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+.team-img{
+    width: 326px;
+    height: 272px;
+    border-radius: 10px;
+}
+.banner-card{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    top: 180px;
+    left:30px ;
+}
+.banner{
+   margin: auto;
+   max-width: 1060px;
+   max-height: 604px;
+   border-radius: 10px;
+    
+}
+.trainer-container{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+.class{
+   text-align: center;
+}
+.facilities{
+    font-weight: 400px;
+    font-size: 23px;  
+    color: rgba(255, 255, 255, 0.5);
+}
+.get-start{
+    font-weight: 700px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    max-width: 1060px;
+    max-height: 250px;
+    margin: auto;
+    padding: 66px 190px 120px 190px;
+    border-bottom: 2px solid white ;
+    border-bottom-style: ;
+   
+}
+
+/* responsive */
+
+
+@media screen and (max-width:576px) {
+
+
+    .navber{
+        padding: 0px 50px;
+    }
+
+.fitness-content{
+   
+    flex-direction: column;
+    gap: 250px;
+    position: relative;
+    right: 100px;
+}
+    /* .content-container{
+        position: relative;
+        left: -120px;
+        /* width: auto; 
+    } */
+     .change-habits{
+        display: flex;
+        flex-direction: column;
+     }
+    .img-containor, .extra-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .trainer-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
